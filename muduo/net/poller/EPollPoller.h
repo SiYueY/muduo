@@ -25,6 +25,7 @@ namespace net
 ///
 /// IO Multiplexing with epoll(4).
 ///
+/* 基于 epoll 的 IO 多路复用实现 */
 class EPollPoller : public Poller
 {
  public:

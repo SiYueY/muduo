@@ -15,6 +15,7 @@
 namespace muduo
 {
 
+/* 无界阻塞队列(生产者消费者队列) */
 template<typename T>
 class BlockingQueue : noncopyable
 {

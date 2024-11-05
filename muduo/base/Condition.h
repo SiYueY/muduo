@@ -13,6 +13,7 @@
 namespace muduo
 {
 
+/* 条件变量 */
 class Condition : noncopyable
 {
  public:

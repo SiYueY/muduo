@@ -14,6 +14,7 @@
 namespace muduo
 {
 
+/* 线程局部数据的单例模式 */
 template<typename T>
 class ThreadLocalSingleton : noncopyable
 {

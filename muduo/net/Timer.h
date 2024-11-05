@@ -23,6 +23,7 @@ namespace net
 ///
 /// Internal class for timer event.
 ///
+/* 定时器 */
 class Timer : noncopyable
 {
  public:

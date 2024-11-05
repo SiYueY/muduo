@@ -118,6 +118,7 @@ namespace muduo
 //   mutable MutexLock mutex_;
 //   std::vector<int> data_ GUARDED_BY(mutex_);
 // };
+/* 互斥锁 */
 class CAPABILITY("mutex") MutexLock : noncopyable
 {
  public:

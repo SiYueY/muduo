@@ -15,6 +15,7 @@
 namespace muduo
 {
 
+/* 有界阻塞队列 */
 template<typename T>
 class BoundedBlockingQueue : noncopyable
 {

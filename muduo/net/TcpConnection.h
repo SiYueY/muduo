@@ -38,6 +38,7 @@ class Socket;
 /// TCP connection, for both client and server usage.
 ///
 /// This is an interface class, so don't expose too much details.
+/* TCP 连接 */
 class TcpConnection : noncopyable,
                       public std::enable_shared_from_this<TcpConnection>
 {

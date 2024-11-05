@@ -31,6 +31,7 @@ class InetAddress;
 ///
 /// It closes the sockfd when desctructs.
 /// It's thread safe, all operations are delagated to OS.
+/* socket封装 */
 class Socket : noncopyable
 {
  public:

@@ -28,6 +28,7 @@ struct has_no_destroy
 };
 }  // namespace detail
 
+/* 线程安全的单例模式 */
 template<typename T>
 class Singleton : noncopyable
 {

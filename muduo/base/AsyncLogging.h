@@ -19,6 +19,7 @@
 namespace muduo
 {
 
+/* 异步日志 */
 class AsyncLogging : noncopyable
 {
  public:

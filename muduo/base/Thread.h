@@ -17,6 +17,7 @@
 namespace muduo
 {
 
+/* 线程对象 */
 class Thread : noncopyable
 {
  public:

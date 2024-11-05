@@ -25,6 +25,7 @@ namespace net
 ///
 /// IO Multiplexing with poll(2).
 ///
+/* 基于 poll(2) 的 IO 多路复用实现 */
 class PollPoller : public Poller
 {
  public:

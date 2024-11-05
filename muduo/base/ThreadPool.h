@@ -17,6 +17,7 @@
 namespace muduo
 {
 
+/* 线程池 */
 class ThreadPool : noncopyable
 {
  public:

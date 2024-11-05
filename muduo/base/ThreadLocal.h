@@ -14,6 +14,7 @@
 namespace muduo
 {
 
+/* 线程局部数据 */
 template<typename T>
 class ThreadLocal : noncopyable
 {

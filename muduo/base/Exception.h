@@ -12,6 +12,7 @@
 namespace muduo
 {
 
+/* 带 stack stace 的异常基类 */
 class Exception : public std::exception
 {
  public:

@@ -12,6 +12,7 @@
 namespace muduo
 {
 
+/* 倒计时门闩，同步 */
 class CountDownLatch : noncopyable
 {
  public:

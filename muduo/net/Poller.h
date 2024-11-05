@@ -28,6 +28,7 @@ class Channel;
 /// Base class for IO Multiplexing
 ///
 /// This class doesn't own the Channel objects.
+/* IO多路复用的基类接口 */
 class Poller : noncopyable
 {
  public:

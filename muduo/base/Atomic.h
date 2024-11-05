@@ -15,6 +15,8 @@ namespace muduo
 
 namespace detail
 {
+
+/* 原子操作和原子整数 */
 template<typename T>
 class AtomicIntegerT : noncopyable
 {

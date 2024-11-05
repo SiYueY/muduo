@@ -23,6 +23,7 @@ namespace sockets
 
 // the inline assembler code makes type blur,
 // so we disable warnings for a while.
+/* 网络字节序与主机字节序转换 */
 #pragma GCC diagnostic push
 #pragma GCC diagnostic ignored "-Wconversion"
 #pragma GCC diagnostic ignored "-Wold-style-cast"

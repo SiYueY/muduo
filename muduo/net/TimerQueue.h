@@ -32,6 +32,7 @@ class TimerId;
 /// A best efforts timer queue.
 /// No guarantee that the callback will be on time.
 ///
+/* 定时器队列 */
 class TimerQueue : noncopyable
 {
  public:

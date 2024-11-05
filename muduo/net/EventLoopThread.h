@@ -22,6 +22,7 @@ namespace net
 
 class EventLoop;
 
+/* 事件分发线程 */
 class EventLoopThread : noncopyable
 {
  public:

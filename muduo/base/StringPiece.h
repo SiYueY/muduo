@@ -49,6 +49,7 @@ namespace muduo
 {
 
 // For passing C-style string argument to a function.
+/* 字符串参数传递类型 */
 class StringArg // copyable
 {
  public:

@@ -36,6 +36,7 @@ class TimerQueue;
 /// Reactor, at most one per thread.
 ///
 /// This is an interface class, so don't expose too much details.
+/* 事件分发器 */
 class EventLoop : noncopyable
 {
  public:

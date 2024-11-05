@@ -27,6 +27,7 @@ class InetAddress;
 ///
 /// Acceptor of incoming TCP connections.
 ///
+/* 接收器，用于服务端接收连接 */
 class Acceptor : noncopyable
 {
  public:

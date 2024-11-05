@@ -27,6 +27,7 @@ namespace net
 class EventLoop;
 class EventLoopThread;
 
+/* 多线程IO模型 */
 class EventLoopThreadPool : noncopyable
 {
  public:

@@ -22,6 +22,7 @@ namespace net
 class Connector;
 typedef std::shared_ptr<Connector> ConnectorPtr;
 
+/* TCP 客户端 */
 class TcpClient : noncopyable
 {
  public:
