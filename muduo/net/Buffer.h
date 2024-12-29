@@ -30,7 +30,8 @@ namespace net
 {
 
 /// A buffer class modeled after org.jboss.netty.buffer.ChannelBuffer
-///
+/// 仿Netty ChannelBuffer的buffer class，数据的读写通过buffer进行。
+/// 用户代码无需调用read/write，只需处理收到的数据和准备发送的数据即可。 
 /// @code
 /// +-------------------+------------------+------------------+
 /// | prependable bytes |  readable bytes  |  writable bytes  |

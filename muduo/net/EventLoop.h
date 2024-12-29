@@ -34,7 +34,8 @@ class TimerQueue;
 
 ///
 /// Reactor, at most one per thread.
-///
+/// EventLoop时间循环(反应器Reactor)，每个线程只能有一个EventLoop实例，其负责IO和定时器事件的分发。
+/// EventLoop使用eventfd来异步唤醒，使用TimerQueue作为定时器管理，使用Poller作为IO多路复用。
 /// This is an interface class, so don't expose too much details.
 /* 事件分发器 */
 class EventLoop : noncopyable
